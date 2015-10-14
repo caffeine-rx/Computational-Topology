@@ -1,4 +1,0 @@
-Computational Topology by Herbert Edelsbrunner, John L. Harer
-
-Suggested corrections:
-- Over-dot notation used for tangent vector is hard to see/differentiate. (Sec 1.3, pg 16)
