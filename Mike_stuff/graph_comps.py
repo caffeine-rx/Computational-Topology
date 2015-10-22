@@ -1,5 +1,10 @@
 #EXAMPLE OF HOW *NOT* TO WRITE THE CODE FOR GRAPH CONNECTEDNESS!
-#As I wrote this, I discovered how using a class for vertices just added a bunch of useless structure - not only that, but I discovered you can't pass objects by reference making the whole thing too cumbersome to be useful.  I'm now writing the code for this assignment without using classes.
+#As I wrote this, I discovered how using a class for vertices (like I 
+#talked about in class) just added a bunch of useless structure - not only 
+#that, but I discovered you can't pass objects by reference making 
+#the whole thing too cumbersome to be useful.  I think it would work 
+#in C++, though. I'm now writing the code for this assignment without using 
+#classes.
 
 #Mike Wells,  MTH610,  Union-Find program
 
