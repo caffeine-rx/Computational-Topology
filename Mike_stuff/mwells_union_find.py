@@ -1,8 +1,8 @@
 #Mike Wells  Code for connectedness algorithm for graphs.  10/22/2015 MTH610
 
-vertex = [1,2,3,4,5,6,7,8,9,10] #Each vertex corresponds to a number 
-				#in this list.
-
+#vertex = [1,2,3,4,5,6,7,8,9,10] #Each vertex corresponds to a number 
+				#in this list.  
+				#***Realized that the list is not needed.***
 #The edges are just ordered pairs.  If there is an edge from 1 to 9, the edge
 #in this list would be (1,9)
 edges = [(1,2),(2,1), (2,3), (2,4), (3,2), (4,2), (5,6), (5,7), (5,8), (6,5), (7,5), (8,5), (9,10), (10,9)]
@@ -50,11 +50,11 @@ for (i,j) in edges:     #If there is an edge between vertex i and vertex j,
 
 y=0 #This variable will store the number of components of the graph.
 
-for x in range(0,9):
-	if(parent[x] == x+1):
+for x in range(1,10):
+	if(parent[x-1] == x):
 		y = y+1  #If x has itself as a root, then x is the unique root
 			 #of a tree containing a graph's connected 
-			 #componen, so add one to the number of components.
+			 #component, so add one to the number of components.
 
 print y  #Display the number of components on screen.
 
