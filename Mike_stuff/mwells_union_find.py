@@ -50,7 +50,7 @@ for (i,j) in edges:     #If there is an edge between vertex i and vertex j,
 
 y=0 #This variable will store the number of components of the graph.
 
-for x in range(1,10):
+for x in range(1,11):
 	if(parent[x-1] == x):
 		y = y+1  #If x has itself as a root, then x is the unique root
 			 #of a tree containing a graph's connected 
